@@ -6,9 +6,8 @@
 
 # Demo :movie_camera:
 
-![](./public/image/screen.png)
 
-## View live preview [here](https://abusaid.netlify.app/).
+## View live preview [here](https://tonysoft828.github.io/).
 
 ---
 
@@ -59,7 +58,7 @@ git --version
 To Fork the repo click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands
 
 ```
-git clone https://github.com/<YOUR GITHUB USERNAME>/developer-portfolio.git
+git clone https://github.com/<YOUR GITHUB USERNAME>/tonysoft828.github.io.git
 
 cd developer-portfolio
 ```
