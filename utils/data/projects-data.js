@@ -21,7 +21,7 @@ export const projectsData = [
     },
     {
         id: 2,
-        name: 'Video Streaming Platfrom',
+        name: 'Entertainment App',
         description: 'Watch a wide range of content on-demand including television shows, movies, documentaries. Users can stream this content across various devices like smartphones, tablets, smart TVs, and computers. The platform offers features like personalized recommendations, curated collections, and the ability to download content for offline viewing. It aims to provide a comprehensive entertainment experience, catering to different audience preferences with diverse genres and formats.',
         tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
         role: 'Full Stack Developer',
@@ -39,6 +39,7 @@ export const projectsData = [
         demo: '',
         image: financial,
     },
+    /*
     {
         id: 4,
         name: 'Code Testing Platform',
@@ -59,7 +60,7 @@ export const projectsData = [
         demo: '',
         image: resume,
     },
-    
+    */
 ];
 
 
