@@ -20,7 +20,7 @@ const Projects = () => {
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 items-start' >
           {projectsData.map((project, index) => (
 
-              <div className="box-border flex items-center justify-center rounded shadow-[0_0_30px_0_rgba(0,0,0,0.3)] transition-all duration-[0.5s]">
+              <div className="box-border flex items-center justify-center rounded shadow-[0_0_30px_0_rgba(0,0,0,0.3)] transition-all duration-[0.5s]" key={project.id}>
                 <ProjectCard project={project} />
               </div>
           ))}
