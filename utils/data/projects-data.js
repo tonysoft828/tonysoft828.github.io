@@ -1,6 +1,6 @@
 import booksy from '/public/image/booksy.png';
 import youper from '/public/image/youper.png';
-import befrugal from '/public/image/befrugal.png';
+import befrugal from '/public/image/befrugalcash.png';
 import capsulecrm from '/public/image/capsulecrm.png';
 import geckoboard from '/public/image/geckoboard.png';
 import suitedash from '/public/image/suitedash.png';
