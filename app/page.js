@@ -28,9 +28,9 @@ export default async function Home() {
   return (
     <>
       <HeroSection />
-      <AboutSection />
-      <Experience />
       <Skills />
+      {/*<AboutSection />*/}
+      <Experience />
       <Projects />
       <Education />
       {/*<Blog blogs={blogs} />*/}

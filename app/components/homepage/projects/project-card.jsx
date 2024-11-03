@@ -2,6 +2,7 @@
 
 import * as React from 'react';
 import Image from 'next/image';
+import Link from "next/link";
 
 function ProjectCard({ project }) {
 
@@ -12,13 +13,13 @@ function ProjectCard({ project }) {
         <div className="h-[1px] w-full bg-gradient-to-r from-violet-600 to-transparent"></div>
       </div>
       <div className="px-4 lg:px-8 py-3 lg:py-5 relative">
-        {/*
         <div className="flex flex-row space-x-1 lg:space-x-2 absolute top-1/2 -translate-y-1/2">
           <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-red-400"></div>
+          {/*
           <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-orange-400"></div>
           <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-green-200"></div>
+          */}
         </div>
-        */}
         <p className="text-center ml-3 text-[#16f2b3] text-base lg:text-xl">
           {project.name}
         </p>
@@ -43,16 +44,33 @@ function ProjectCard({ project }) {
             <span className="text-cyan-400">{' ' + project.description}</span>
             <span className="text-gray-400">,</span>
           </div>
+          <div className="ml-4 lg:ml-8 mr-2">
+            <span className="text-white">Platform:</span>
+            <Link href={project.link}> <span className="text-cyan-400">{' ' + project.platform}</span> </Link>
+            <span className="text-gray-400">,</span>
+          </div>
+          <div className="ml-4 lg:ml-8 mr-2">
+            <span className="text-white">Link:</span>
+            <Link href={project.link}> <span className="text-cyan-400">{' ' + project.link}</span> </Link>
+            <span className="text-gray-400">,</span>
+          </div>
           <div><span className="text-gray-400">{`};`}</span></div>
+
         </code>
-        <div>
-        <Image
-            src={project.image}
-            width={400}
-            height={400}
-            alt="Tony Therkildsen"
-            className="m-auto rounded-lg transition-all duration-1000 hover:scale-110 cursor-pointer"
-          />
+        <div className='mt-3'>
+          <Link href={project.link}>
+            {
+              project.image ? <Image
+                src={project.image}
+                width={800}
+                height={800}
+                alt="Tony Therkildsen"
+                className="m-auto rounded-lg transition-all duration-1000 hover:scale-110 cursor-pointer"
+              />  : <></>
+            }
+            
+          </Link>
+        
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 export const experiences = [
   {
     id: 1,
+    image: "./highcode.png",
     title: 'Senior Software Engineer',
     company: "HighCode Tech Ltd.",
     duration: "(August 2023 - Present)"

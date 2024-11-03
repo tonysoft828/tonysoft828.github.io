@@ -1,14 +1,115 @@
-import ayla from '/public/image/ayla.jpg';
-import crefin from '/public/image/crefin.jpg';
-import realEstate from '/public/image/real-estate.jpg';
-import travel from '/public/image/travel.jpg';
-import health from '/public/image/health.png';
-import streaming from '/public/image/streaming.png';
-import resume from '/public/image/resume.png';
-import financial from '/public/image/financial.png';
-import code from '/public/image/code.png';
+import booksy from '/public/image/booksy.png';
+import youper from '/public/image/youper.png';
+import befrugal from '/public/image/befrugal.png';
+import capsulecrm from '/public/image/capsulecrm.png';
+import geckoboard from '/public/image/geckoboard.png';
+import suitedash from '/public/image/suitedash.png';
+import storenvy from '/public/image/storenvy.png';
+import wellnessliving from '/public/image/wellnessliving.png';
+import fishbowl from '/public/image/fishbowl.png';
+import learndash from '/public/image/learndash.png';
+import symptomate from '/public/image/symptomate.png';
+
 
 export const projectsData = [
+
+    {
+        id: 1,
+        name: 'Healthcare Appointment System',
+        description: 'An app for scheduling healthcare appointments with patient management.',
+        platform: 'Web and mobile app',
+        link: "https://www.booksy.com/",
+        image: booksy,
+    },
+
+    {
+        id: 2,
+        name: 'Mental Health Companion',
+        description: 'A mental healthcare app, integrating AI chatbot for mental health assessments and user engagement.',
+        platform: 'Web and mobile app',
+        link: "https://www.youper.ai/",
+        image: youper,
+    },
+    {
+        id: 3,
+        name: 'CashBack Deals',
+        description: 'A consumer-friendly web app for finding and redeeming cash-back offers.',
+        platform: 'Web app',
+        link: "https://www.befrugal.com/",
+        image: befrugal,
+    },
+    {
+        id: 4,
+        name: 'CRM system',
+        description: 'A CRM solution designed to manage client data and enhance customer relationships.',
+        platform: 'Web app',
+        link: "https://capsulecrm.com/",
+        image: capsulecrm,
+    },
+    {
+        id: 5,
+        name: 'AI Medical Diagnosis',
+        description: 'AI-based diagnostics system for preliminary health assessments.',
+        platform: 'Web and mobile app',
+        link: "https://symptomate.com/",
+        image: symptomate,
+    },
+    {
+        id: 6,
+        name: 'Customer Management App',
+        description: 'A web app designed for customer record management.',
+        platform: 'Web app',
+        link: "https://suitedash.com/",
+        image: suitedash,
+    },
+    {
+        id: 7,
+        name: 'E-commerce Storefront',
+        description: 'An online retail platform with robust backend for inventory and orders.',
+        platform: 'Web and mobile app',
+        link: "https://www.storenvy.com/",
+        image: storenvy,
+    },
+    {
+        id: 8,
+        name: 'Analytics Dashboard',
+        description: 'Data analytics tool for tracking insights and generating reports.',
+        platform: 'Web app',
+        link: "https://www.geckoboard.com/",
+        image: geckoboard,
+    },
+    {
+        id: 9,
+        name: 'Employee Wellness App',
+        description: 'Wellness app for employee support, tracking, and resources.',
+        platform: 'Web and mobile app',
+        link: "https://www.wellnessliving.com/",
+        image: wellnessliving,
+    },
+    {
+        id: 10,
+        name: 'Inventory Management System',
+        description: 'A tool to manage stock levels, orders, and inventory records.',
+        platform: 'Web app',
+        link: "https://www.fishbowlinventory.com/",
+        image: fishbowl,
+    },
+    {
+        id: 11,
+        name: 'E-Learning Platform',
+        description: 'Platform hosting interactive courses, video lessons, and student tracking.',
+        platform: 'Web app',
+        link: "https://www.learndash.com/",
+        image: learndash,
+    },
+    {
+        id: 12,
+        name: 'Social Networking Platform',
+        description: 'An internal social network for team communications and projects.',
+        platform: 'Web and mobile app',
+        link: "/",
+    },
+    /*
     {
         id: 1,
         name: 'Healthcare App',
@@ -39,7 +140,6 @@ export const projectsData = [
         demo: '',
         image: financial,
     },
-    /*
     {
         id: 4,
         name: 'Code Testing Platform',
